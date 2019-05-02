@@ -1,0 +1,25 @@
+
+/* Sticky Footer Classes */
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+html,
+body {
+  height: 100%;
+  padding-top: 3.5rem;
+  padding-bottom: 0;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+    background: #00eeff;
+    background: linear-gradient(to right, #343a40, #00eeff);
+  }
